@@ -1,13 +1,13 @@
 package com.daniel.assignment.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
-@EntityScan
 public class ApplicationUser {
 
     private long id;
     private String username;
     private String password;
+
+    public ApplicationUser() {
+    }
 
     public ApplicationUser(long i, String username, String password) {
         this.id = id;
